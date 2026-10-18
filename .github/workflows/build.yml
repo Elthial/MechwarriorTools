@@ -1,0 +1,26 @@
+name: build
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  windows-workshop:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/Test-PublicTree.py
+      - run: python tools/Test-Documentation.py
+      - shell: pwsh
+        run: ./Build.ps1 -Configuration Release
+  portable-cli:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - run: dotnet build src/MechwarriorTooling.Cli -c Release
+      - run: dotnet run --project tests/MechwarriorTooling.Verification -c Release

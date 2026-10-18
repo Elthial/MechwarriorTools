@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MechwarriorTooling/MechwarriorTooling.csproj" />
+    <Project Path="src/MechwarriorTooling.Core/MechwarriorTooling.Core.csproj" />
+    <Project Path="src/MechwarriorTooling.Rendering/MechwarriorTooling.Rendering.csproj" />
+    <Project Path="src/MechwarriorTooling.Cli/MechwarriorTooling.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MechwarriorTooling.Verification/MechwarriorTooling.Verification.csproj" />
+  </Folder>
+</Solution>

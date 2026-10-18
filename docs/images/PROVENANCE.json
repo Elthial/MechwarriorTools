@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "file": "docs/images/mechs.png",
+      "description": "Fresh Release detached WPF Mechs page capture from the standalone build, 2026-10-18.",
+      "sha256": "560864bdf888dc0919878666441576e0155d9d13d541a070ca8241dffcd1a86c",
+      "sourceSha256": "7a91a99772150fae57c44175918187347e130cba502bded0c89f209302b00a9c",
+      "pixels": [
+        1360,
+        900
+      ],
+      "processing": "Lossless RGB PNG encoding only; no resizing, compositing, retouching or reference substitution.",
+      "rights": "Contains original game artwork; excluded from project MIT licence. Documentation only."
+    },
+    {
+      "file": "docs/images/maps.png",
+      "description": "Fresh Release detached WPF Maps page capture, 2026-10-18.",
+      "sha256": "85cbb269f87a41638a433cc37c4fae104e3045cf313e02e426e6f9bfbc16bd78",
+      "sourceSha256": "b1470bae6efdcfcdfe983c4ca5c3503678ea14868e2457bfe12a122cea7a3a7d",
+      "pixels": [
+        1360,
+        900
+      ],
+      "processing": "Lossless RGB PNG encoding only; no resizing, compositing, retouching or reference substitution.",
+      "rights": "Contains original game artwork; excluded from project MIT licence. Documentation only."
+    },
+    {
+      "file": "docs/images/sounds.png",
+      "description": "Fresh Release detached WPF sound controls/waveform capture, 2026-10-18; no audio played.",
+      "sha256": "a19a4fb06f54d75d431a4335c3c67768a346576ff1dc068ff3e97730a3b501d8",
+      "sourceSha256": "bfded3de415909df8ba986463b1315b98d7b348e087149da3168643c88f03059",
+      "pixels": [
+        1360,
+        900
+      ],
+      "processing": "Lossless RGB PNG encoding only; no resizing, compositing, retouching or reference substitution.",
+      "rights": "Contains original game artwork; excluded from project MIT licence. Documentation only."
+    }
+  ]
+}

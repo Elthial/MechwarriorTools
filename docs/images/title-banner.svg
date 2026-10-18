@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">MechWarrior preservation project</title>
+  <desc id="desc">Original typographic project banner with a schematic targeting reticle. Not the game's logo.</desc>
+  <rect width="1200" height="280" fill="#101b25"/>
+  <path d="M0 240H1200M0 40H1200" stroke="#304451" stroke-width="2"/>
+  <g fill="none" stroke="#65d3c5" stroke-width="3">
+    <circle cx="145" cy="140" r="66"/><circle cx="145" cy="140" r="43"/>
+    <path d="M145 55V112M145 168V225M60 140H117M173 140H230"/>
+  </g>
+  <path d="M272 71H1125" stroke="#d4a75a" stroke-width="5"/>
+  <text x="270" y="149" font-family="Consolas,monospace" font-size="68" font-weight="bold" fill="#eef1ed">MECHWARRIOR</text>
+  <text x="275" y="194" font-family="Consolas,monospace" font-size="22" letter-spacing="3" fill="#65d3c5">PRESERVATION / SOURCE / ASSET RESEARCH</text>
+  <text x="275" y="224" font-family="Consolas,monospace" font-size="15" fill="#a4b5bf">1989 DOS behaviour · modern hardware · readable interiors</text>
+</svg>

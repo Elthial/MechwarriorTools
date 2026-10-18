@@ -1,0 +1,72 @@
+<Window x:Class="MechwarriorTooling.MainWindow"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="MechwarriorTooling" Width="1360" Height="900" MinWidth="1000" MinHeight="700">
+ <Grid Background="#111923" TextElement.Foreground="#E3E9ED" TextElement.FontFamily="Segoe UI">
+  <Grid.ColumnDefinitions><ColumnDefinition Width="180"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+  <Border Background="#0C131C" BorderBrush="#293C4D" BorderThickness="0,0,1,0">
+   <DockPanel Margin="14,22">
+    <StackPanel DockPanel.Dock="Top">
+     <TextBlock Text="MECHWARRIOR" FontSize="17" FontWeight="Bold" Foreground="#79D3C5"/>
+     <TextBlock Text="ASSET WORKSHOP" FontSize="11" Margin="0,5,0,26" Foreground="#8B9EAF"/>
+     <ListBox x:Name="Navigation" SelectionChanged="Navigate" Background="Transparent" BorderThickness="0" Foreground="#DDE7EF" SelectedIndex="0">
+      <ListBox.ItemContainerStyle><Style TargetType="ListBoxItem"><Setter Property="Padding" Value="12,13"/><Setter Property="Margin" Value="0,3"/><Setter Property="HorizontalContentAlignment" Value="Stretch"/></Style></ListBox.ItemContainerStyle>
+      <ListBoxItem Content="Mechs"/><ListBoxItem Content="Models"/><ListBoxItem Content="Maps"/><ListBoxItem Content="SFX"/><ListBoxItem Content="Sounds"/>
+     </ListBox>
+    </StackPanel>
+    <StackPanel DockPanel.Dock="Bottom" VerticalAlignment="Bottom">
+     <TextBlock Text="ORIGINALS READ-ONLY" Foreground="#79D3C5" FontSize="10" Margin="0,10"/>
+     <Button Content="Open installation…" Click="ChooseInstallation"/>
+     <Button Content="Open working copy…" Click="ChooseWorkingCopy"/>
+     <Button Content="Asset interchange…" Click="OpenInterchange"/>
+     <TextBlock x:Name="InstallationLabel" Text="No installation selected" TextWrapping="Wrap" Foreground="#8B9EAF" FontSize="11" Margin="3,10"/>
+    </StackPanel>
+   </DockPanel>
+  </Border>
+  <Grid Grid.Column="1" Margin="22,16">
+   <Grid.RowDefinitions>
+    <RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/>
+    <RowDefinition Height="7"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/>
+   </Grid.RowDefinitions>
+   <DockPanel Margin="0,0,0,12">
+    <StackPanel><TextBlock x:Name="PageTitle" Text="BattleMechs" FontSize="26" FontWeight="SemiBold"/><TextBlock x:Name="PageDescription" Text="Open your original installation to inspect its assets." Foreground="#91A8BB" Margin="0,4,0,0"/></StackPanel>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+     <Button Content="Undo" Click="Undo"/><Button Content="Redo" Click="Redo"/>
+     <Button Content="Export PNG…" Click="ExportPng"/><Button Content="Save copy…" Click="SaveCopy"/>
+    </StackPanel>
+   </DockPanel>
+   <WrapPanel Grid.Row="1" x:Name="HeaderControls" Margin="0,0,0,10"/>
+   <Grid Grid.Row="2" x:Name="Previews">
+    <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="12"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+    <Border Background="#101923" BorderBrush="#344B5E" BorderThickness="1" CornerRadius="5">
+     <DockPanel Margin="10">
+      <TextBlock x:Name="LeftCaption" DockPanel.Dock="Top" Text="INTERACTIVE · drag to rotate / wheel to zoom" FontSize="11" Foreground="#91A8BB" Margin="0,0,0,8"/>
+      <Image x:Name="LeftImage" Stretch="Uniform" RenderOptions.BitmapScalingMode="NearestNeighbor" MouseDown="OnPreviewMouseDown" MouseMove="OnPreviewMouseMove" MouseUp="OnPreviewMouseUp" MouseWheel="OnPreviewMouseWheel"/>
+     </DockPanel>
+    </Border>
+    <Border Grid.Column="2" Background="#101923" BorderBrush="#344B5E" BorderThickness="1" CornerRadius="5">
+     <DockPanel Margin="10">
+      <TextBlock x:Name="RightCaption" DockPanel.Dock="Top" Text="TURNTABLE · one revolution every 10 seconds" FontSize="11" Foreground="#91A8BB" Margin="0,0,0,8"/>
+      <Image x:Name="RightImage" Stretch="Uniform" RenderOptions.BitmapScalingMode="NearestNeighbor" MouseDown="OnPreviewMouseDown" MouseMove="OnPreviewMouseMove" MouseUp="OnPreviewMouseUp" MouseWheel="OnPreviewMouseWheel"/>
+     </DockPanel>
+    </Border>
+   </Grid>
+   <GridSplitter Grid.Row="3" Height="5" HorizontalAlignment="Stretch" Background="#344B5E"/>
+   <TabControl x:Name="InformationTabs" Grid.Row="4" Margin="0,8,0,8">
+    <TabItem Header="Asset information">
+     <DataGrid x:Name="PropertiesGrid" IsReadOnly="True" AutoGenerateColumns="False" HeadersVisibility="Column" Background="#182431" Foreground="#E3E9ED" CanUserAddRows="False" GridLinesVisibility="Horizontal" HorizontalGridLinesBrush="#344B5E">
+      <DataGrid.Resources>
+       <Style TargetType="DataGridRow"><Setter Property="Background" Value="#1D2D3C"/><Setter Property="Foreground" Value="#E3E9ED"/><Setter Property="MinHeight" Value="27"/></Style>
+       <Style TargetType="DataGridColumnHeader"><Setter Property="Background" Value="#293E50"/><Setter Property="Foreground" Value="#B7D6E6"/><Setter Property="Padding" Value="8"/></Style>
+      </DataGrid.Resources>
+      <DataGrid.Columns><DataGridTextColumn Header="Property" Binding="{Binding Property}" Width="220"/><DataGridTextColumn Header="Value" Binding="{Binding Value}" Width="*"/></DataGrid.Columns>
+     </DataGrid>
+    </TabItem>
+    <TabItem Header="Editor"><ScrollViewer VerticalScrollBarVisibility="Auto"><StackPanel x:Name="EditorPanel"/></ScrollViewer></TabItem>
+    <TabItem Header="Format / evidence"><TextBox x:Name="EvidenceText" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/></TabItem>
+    <TabItem Header="Changes"><TextBox x:Name="ChangesText" IsReadOnly="True" FontFamily="Consolas" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/></TabItem>
+   </TabControl>
+   <TextBlock Grid.Row="5" x:Name="StatusText" Text="Ready. Original assets are never overwritten." TextWrapping="Wrap" Foreground="#91A8BB" FontSize="11"/>
+  </Grid>
+ </Grid>
+</Window>

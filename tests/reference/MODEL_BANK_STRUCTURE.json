@@ -1,0 +1,1326 @@
+{
+  "scope": "Static structural/animation envelope; no geometry or original asset bytes exported.",
+  "limits": "No claim of exhaustive dynamic reachability, LOD reachability or visual chassis identification. Unreferenced bytes may be padding or unknown metadata.",
+  "animationDumpSha256": "c27e2fdd7515abf6dc4dacd96c2444ad30e039086231738b951eb2c5236cc9e6",
+  "modelBanks": [
+    {
+      "encodedBytes": 26627,
+      "decodedBytes": 38706,
+      "sha256": "39d83df552edd9c87a9c7d17fb852034de449a86d1060f5a38a7f4a4ca8b0589",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 26622,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 84,
+      "renderStructureCounts": {
+        "entries": 224,
+        "variants": 224,
+        "records": 224,
+        "polygons": 1134,
+        "types": {
+          "0": 224,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 224
+      },
+      "primitivesPerVariant": {
+        "1": 224
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "locpck.tbl",
+      "chassis": "LOCUST",
+      "authoredPrimarySequenceResources": 84,
+      "animationReferencedResources": 84,
+      "unreferencedResourceIndices": [],
+      "outOfBankAnimationReferences": [],
+      "availableSequences": [
+        {
+          "sequence": 0,
+          "logicalFrames": 1,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "sequence": 1,
+          "logicalFrames": 8,
+          "resourceRanges": [
+            [
+              6,
+              54
+            ]
+          ]
+        },
+        {
+          "sequence": 4,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              54,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 5,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              54,
+              58
+            ],
+            [
+              59,
+              63
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              69,
+              73
+            ],
+            [
+              74,
+              78
+            ],
+            [
+              79,
+              83
+            ]
+          ]
+        },
+        {
+          "sequence": 7,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              56,
+              59
+            ],
+            [
+              61,
+              64
+            ],
+            [
+              66,
+              69
+            ],
+            [
+              71,
+              74
+            ],
+            [
+              76,
+              79
+            ],
+            [
+              81,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 8,
+          "logicalFrames": 3,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "encodedBytes": 22866,
+      "decodedBytes": 38374,
+      "sha256": "82fc7d5482b3410a2ba95c7d7f42982c29cc1a9c0dc22b942bb371b68be19bca",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 22861,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 120,
+      "renderStructureCounts": {
+        "entries": 240,
+        "variants": 240,
+        "records": 240,
+        "polygons": 1128,
+        "types": {
+          "0": 240,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 240
+      },
+      "primitivesPerVariant": {
+        "1": 240
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "jenpck.tbl",
+      "chassis": "JENNER",
+      "authoredPrimarySequenceResources": 120,
+      "animationReferencedResources": 120,
+      "unreferencedResourceIndices": [],
+      "outOfBankAnimationReferences": [],
+      "availableSequences": [
+        {
+          "sequence": 0,
+          "logicalFrames": 1,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "sequence": 1,
+          "logicalFrames": 8,
+          "resourceRanges": [
+            [
+              6,
+              54
+            ]
+          ]
+        },
+        {
+          "sequence": 2,
+          "logicalFrames": 7,
+          "resourceRanges": [
+            [
+              54,
+              90
+            ]
+          ]
+        },
+        {
+          "sequence": 4,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              90,
+              120
+            ]
+          ]
+        },
+        {
+          "sequence": 5,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              90,
+              94
+            ],
+            [
+              95,
+              99
+            ],
+            [
+              100,
+              104
+            ],
+            [
+              105,
+              109
+            ],
+            [
+              110,
+              114
+            ],
+            [
+              115,
+              119
+            ]
+          ]
+        },
+        {
+          "sequence": 6,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              58,
+              60
+            ],
+            [
+              64,
+              66
+            ],
+            [
+              70,
+              72
+            ],
+            [
+              76,
+              78
+            ],
+            [
+              82,
+              84
+            ],
+            [
+              88,
+              90
+            ]
+          ]
+        },
+        {
+          "sequence": 7,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              92,
+              95
+            ],
+            [
+              97,
+              100
+            ],
+            [
+              102,
+              105
+            ],
+            [
+              107,
+              110
+            ],
+            [
+              112,
+              115
+            ],
+            [
+              117,
+              120
+            ]
+          ]
+        },
+        {
+          "sequence": 8,
+          "logicalFrames": 3,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "encodedBytes": 24673,
+      "decodedBytes": 40640,
+      "sha256": "49d3051dfb09e3a643ad5cf4204cd26189070b591d0ea3a2b5fa1738e5a1272d",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 24668,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 120,
+      "renderStructureCounts": {
+        "entries": 200,
+        "variants": 200,
+        "records": 200,
+        "polygons": 1380,
+        "types": {
+          "0": 200,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 200
+      },
+      "primitivesPerVariant": {
+        "1": 200
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "phapck.tbl",
+      "chassis": "PHOENIX HAWK",
+      "authoredPrimarySequenceResources": 120,
+      "animationReferencedResources": 120,
+      "unreferencedResourceIndices": [],
+      "outOfBankAnimationReferences": [],
+      "availableSequences": [
+        {
+          "sequence": 0,
+          "logicalFrames": 1,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "sequence": 1,
+          "logicalFrames": 8,
+          "resourceRanges": [
+            [
+              6,
+              54
+            ]
+          ]
+        },
+        {
+          "sequence": 2,
+          "logicalFrames": 7,
+          "resourceRanges": [
+            [
+              54,
+              90
+            ]
+          ]
+        },
+        {
+          "sequence": 4,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              90,
+              120
+            ]
+          ]
+        },
+        {
+          "sequence": 5,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              90,
+              94
+            ],
+            [
+              95,
+              99
+            ],
+            [
+              100,
+              104
+            ],
+            [
+              105,
+              109
+            ],
+            [
+              110,
+              114
+            ],
+            [
+              115,
+              119
+            ]
+          ]
+        },
+        {
+          "sequence": 6,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              58,
+              60
+            ],
+            [
+              64,
+              66
+            ],
+            [
+              70,
+              72
+            ],
+            [
+              76,
+              78
+            ],
+            [
+              82,
+              84
+            ],
+            [
+              88,
+              90
+            ]
+          ]
+        },
+        {
+          "sequence": 7,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              92,
+              95
+            ],
+            [
+              97,
+              100
+            ],
+            [
+              102,
+              105
+            ],
+            [
+              107,
+              110
+            ],
+            [
+              112,
+              115
+            ],
+            [
+              117,
+              120
+            ]
+          ]
+        },
+        {
+          "sequence": 8,
+          "logicalFrames": 3,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "encodedBytes": 40544,
+      "decodedBytes": 56772,
+      "sha256": "63abc05e37d544c0c9c74593a0e1cb33ee0c5cba7267c86bd8206f5b8818e7f9",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 40539,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 120,
+      "renderStructureCounts": {
+        "entries": 294,
+        "variants": 294,
+        "records": 294,
+        "polygons": 1725,
+        "types": {
+          "0": 294,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 294
+      },
+      "primitivesPerVariant": {
+        "1": 294
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "shapck.tbl",
+      "chassis": "SHADOW HAWK",
+      "authoredPrimarySequenceResources": 120,
+      "animationReferencedResources": 120,
+      "unreferencedResourceIndices": [],
+      "outOfBankAnimationReferences": [],
+      "availableSequences": [
+        {
+          "sequence": 0,
+          "logicalFrames": 1,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "sequence": 1,
+          "logicalFrames": 8,
+          "resourceRanges": [
+            [
+              6,
+              54
+            ]
+          ]
+        },
+        {
+          "sequence": 2,
+          "logicalFrames": 7,
+          "resourceRanges": [
+            [
+              54,
+              90
+            ]
+          ]
+        },
+        {
+          "sequence": 4,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              90,
+              120
+            ]
+          ]
+        },
+        {
+          "sequence": 5,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              90,
+              94
+            ],
+            [
+              95,
+              99
+            ],
+            [
+              100,
+              104
+            ],
+            [
+              105,
+              109
+            ],
+            [
+              110,
+              114
+            ],
+            [
+              115,
+              119
+            ]
+          ]
+        },
+        {
+          "sequence": 6,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              58,
+              60
+            ],
+            [
+              64,
+              66
+            ],
+            [
+              70,
+              72
+            ],
+            [
+              76,
+              78
+            ],
+            [
+              82,
+              84
+            ],
+            [
+              88,
+              90
+            ]
+          ]
+        },
+        {
+          "sequence": 7,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              92,
+              95
+            ],
+            [
+              97,
+              100
+            ],
+            [
+              102,
+              105
+            ],
+            [
+              107,
+              110
+            ],
+            [
+              112,
+              115
+            ],
+            [
+              117,
+              120
+            ]
+          ]
+        },
+        {
+          "sequence": 8,
+          "logicalFrames": 3,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "encodedBytes": 32775,
+      "decodedBytes": 42774,
+      "sha256": "622866d77ba6f8b55a5b6916c95222298baa6e74dc2b6699bd10c2b85dab8473",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 32770,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 84,
+      "renderStructureCounts": {
+        "entries": 238,
+        "variants": 238,
+        "records": 238,
+        "polygons": 1238,
+        "types": {
+          "0": 238,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 238
+      },
+      "primitivesPerVariant": {
+        "1": 238
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "rifpck.tbl",
+      "chassis": "RIFLEMAN",
+      "authoredPrimarySequenceResources": 84,
+      "animationReferencedResources": 84,
+      "unreferencedResourceIndices": [],
+      "outOfBankAnimationReferences": [],
+      "availableSequences": [
+        {
+          "sequence": 0,
+          "logicalFrames": 1,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "sequence": 1,
+          "logicalFrames": 8,
+          "resourceRanges": [
+            [
+              6,
+              54
+            ]
+          ]
+        },
+        {
+          "sequence": 4,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              54,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 5,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              54,
+              58
+            ],
+            [
+              59,
+              63
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              69,
+              73
+            ],
+            [
+              74,
+              78
+            ],
+            [
+              79,
+              83
+            ]
+          ]
+        },
+        {
+          "sequence": 7,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              56,
+              59
+            ],
+            [
+              61,
+              64
+            ],
+            [
+              66,
+              69
+            ],
+            [
+              71,
+              74
+            ],
+            [
+              76,
+              79
+            ],
+            [
+              81,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 8,
+          "logicalFrames": 3,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "encodedBytes": 29960,
+      "decodedBytes": 39530,
+      "sha256": "1812f1d922bd82141fc4c9a5380e5c3a51528a72c4c805e9dcce4b8be0bcee60",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 29955,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 84,
+      "renderStructureCounts": {
+        "entries": 238,
+        "variants": 238,
+        "records": 238,
+        "polygons": 1176,
+        "types": {
+          "0": 238,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 238
+      },
+      "primitivesPerVariant": {
+        "1": 238
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "hampck.tbl",
+      "chassis": "WARHAMMER",
+      "authoredPrimarySequenceResources": 84,
+      "animationReferencedResources": 84,
+      "unreferencedResourceIndices": [],
+      "outOfBankAnimationReferences": [],
+      "availableSequences": [
+        {
+          "sequence": 0,
+          "logicalFrames": 1,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "sequence": 1,
+          "logicalFrames": 8,
+          "resourceRanges": [
+            [
+              6,
+              54
+            ]
+          ]
+        },
+        {
+          "sequence": 4,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              54,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 5,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              54,
+              58
+            ],
+            [
+              59,
+              63
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              69,
+              73
+            ],
+            [
+              74,
+              78
+            ],
+            [
+              79,
+              83
+            ]
+          ]
+        },
+        {
+          "sequence": 7,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              56,
+              59
+            ],
+            [
+              61,
+              64
+            ],
+            [
+              66,
+              69
+            ],
+            [
+              71,
+              74
+            ],
+            [
+              76,
+              79
+            ],
+            [
+              81,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 8,
+          "logicalFrames": 3,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "encodedBytes": 39022,
+      "decodedBytes": 50512,
+      "sha256": "559e679236cf6e914e0d603437b48f0d7a6bc4b5bbf13348c41997fbe500ab6f",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 39017,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 84,
+      "renderStructureCounts": {
+        "entries": 238,
+        "variants": 238,
+        "records": 238,
+        "polygons": 1544,
+        "types": {
+          "0": 238,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 238
+      },
+      "primitivesPerVariant": {
+        "1": 238
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "marpck.tbl",
+      "chassis": "MARAUDER",
+      "authoredPrimarySequenceResources": 84,
+      "animationReferencedResources": 84,
+      "unreferencedResourceIndices": [],
+      "outOfBankAnimationReferences": [],
+      "availableSequences": [
+        {
+          "sequence": 0,
+          "logicalFrames": 1,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "sequence": 1,
+          "logicalFrames": 8,
+          "resourceRanges": [
+            [
+              6,
+              54
+            ]
+          ]
+        },
+        {
+          "sequence": 4,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              54,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 5,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              54,
+              58
+            ],
+            [
+              59,
+              63
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              69,
+              73
+            ],
+            [
+              74,
+              78
+            ],
+            [
+              79,
+              83
+            ]
+          ]
+        },
+        {
+          "sequence": 7,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              56,
+              59
+            ],
+            [
+              61,
+              64
+            ],
+            [
+              66,
+              69
+            ],
+            [
+              71,
+              74
+            ],
+            [
+              76,
+              79
+            ],
+            [
+              81,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 8,
+          "logicalFrames": 3,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "encodedBytes": 34973,
+      "decodedBytes": 44938,
+      "sha256": "2b576e9a668301b7e790df7e6d8979463c72863283231158cd4338a9b522dd29",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 34968,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 84,
+      "renderStructureCounts": {
+        "entries": 224,
+        "variants": 224,
+        "records": 224,
+        "polygons": 1390,
+        "types": {
+          "0": 224,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 224
+      },
+      "primitivesPerVariant": {
+        "1": 224
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "bmapck.tbl",
+      "chassis": "BATTLEMASTER",
+      "authoredPrimarySequenceResources": 84,
+      "animationReferencedResources": 84,
+      "unreferencedResourceIndices": [],
+      "outOfBankAnimationReferences": [],
+      "availableSequences": [
+        {
+          "sequence": 0,
+          "logicalFrames": 1,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        },
+        {
+          "sequence": 1,
+          "logicalFrames": 8,
+          "resourceRanges": [
+            [
+              6,
+              54
+            ]
+          ]
+        },
+        {
+          "sequence": 4,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              54,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 5,
+          "logicalFrames": 4,
+          "resourceRanges": [
+            [
+              54,
+              58
+            ],
+            [
+              59,
+              63
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              69,
+              73
+            ],
+            [
+              74,
+              78
+            ],
+            [
+              79,
+              83
+            ]
+          ]
+        },
+        {
+          "sequence": 7,
+          "logicalFrames": 5,
+          "resourceRanges": [
+            [
+              56,
+              59
+            ],
+            [
+              61,
+              64
+            ],
+            [
+              66,
+              69
+            ],
+            [
+              71,
+              74
+            ],
+            [
+              76,
+              79
+            ],
+            [
+              81,
+              84
+            ]
+          ]
+        },
+        {
+          "sequence": 8,
+          "logicalFrames": 3,
+          "resourceRanges": [
+            [
+              0,
+              6
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "otherRenderBanks": [
+    {
+      "encodedBytes": 8293,
+      "decodedBytes": 11270,
+      "sha256": "6b7a399e0711b9944069e0206c1bcf4bc33097809b34518a1cd886087e4c0414",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 8288,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 30,
+      "renderStructureCounts": {
+        "entries": 57,
+        "variants": 57,
+        "records": 57,
+        "polygons": 377,
+        "types": {
+          "0": 57,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 57
+      },
+      "primitivesPerVariant": {
+        "1": 57
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "terpck.tbl"
+    },
+    {
+      "encodedBytes": 2182,
+      "decodedBytes": 3359,
+      "sha256": "1450ece44914d1383294df6ae7d396230bdc92464701794d59532cd2db8a95e3",
+      "compressionConsumption": {
+        "consumedPayloadBytes": 2177,
+        "unconsumedPayloadBytes": 0
+      },
+      "resources": 23,
+      "renderStructureCounts": {
+        "entries": 39,
+        "variants": 42,
+        "records": 42,
+        "polygons": 64,
+        "types": {
+          "0": 14,
+          "1": 28,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "variantsPerEntry": {
+        "1": 37,
+        "2": 1,
+        "3": 1
+      },
+      "primitivesPerVariant": {
+        "1": 42
+      },
+      "unreferencedByParsedTablesBytes": 0,
+      "nonzeroUnreferencedBytes": 0,
+      "unreferencedRanges": [],
+      "file": "othpck.tbl"
+    }
+  ],
+  "waspWolverineFilenameCandidates": [],
+  "terrainWorldPlacementAudit": {
+    "worldFiles": 32,
+    "placements": 86,
+    "resourcesAbsentFromAllWorldFiles": [
+      0,
+      1,
+      12,
+      14,
+      15,
+      16,
+      17,
+      19,
+      24,
+      25
+    ],
+    "limits": "Absence from WLD records alone does not exclude direct/procedural executable references."
+  },
+  "crossChassisIdenticalRenderResources": []
+}
